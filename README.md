@@ -47,3 +47,10 @@ ii. Hit the web interfaces directly via their internal IP addresses (for trouble
 
 
 ---
+
+
+### To-do list
+
+1. Create the user accounts in Keycloak and Drupal respectively
+2. Integrate Keycloak user authentication with Drupal (can follow the [link](https://www.drupal.org/docs/contributed-modules/drupal-oauth-openid-connect-login-oauth2-client-sso-login/keycloak-single-sign-on-login-using-drupal-as-oauth-client) here)
+3. 
