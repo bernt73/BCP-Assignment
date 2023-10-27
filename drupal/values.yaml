@@ -416,8 +416,8 @@ service:
   ## @param service.ports.https Service HTTPS port
   ##
   ports:
-    http: 80
-    https: 443
+    http: 82
+    https: 445
   ## @param service.loadBalancerSourceRanges Restricts access for LoadBalancer (only with `service.type: LoadBalancer`)
   ## e.g:
   ## loadBalancerSourceRanges:
