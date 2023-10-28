@@ -15,6 +15,20 @@ This repo is created to host the helm charts for the BC Platforms assignment
 
 ---
 
+### Pre-requisites
+
+1. K3S
+2. kubectl
+3. Helm (and Bitnami’s repo has been added to Helm - if not, just run
+
+   `helm repo add bitnami https://charts.bitnami.com/bitnami`)
+
+*This has been tested on* :
+- k3s v1.27.6
+- kubectl v1.28.3
+- helm v3.13.1
+
+
 ### 1. Instructions to run 
 
 `helm install bc-drupal -f ./drupal/values.yaml ./drupal/`
